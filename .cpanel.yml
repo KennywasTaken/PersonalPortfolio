@@ -4,5 +4,4 @@ deployment:
     - export DEPLOY_PATH=/home/jonawxfz/public_html
     - echo "Starting deployment to $DEPLOY_PATH"
     - /bin/cp -R * $DEPLOY_PATH
-    - rm -rf $DEPLOY_PATH/cache/*
     - echo "Deployment completed"
