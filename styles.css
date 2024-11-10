@@ -2,6 +2,12 @@ html {
     background-color: black;
 }
 
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
 a {
     color: black;
 }
@@ -27,7 +33,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .PageHeader {
     width: 100vw;
-    height: 100px;
+    height: 500px;
     color: black;
     background-color: gray;
     box-sizing: border-box;
