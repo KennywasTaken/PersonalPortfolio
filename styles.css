@@ -16,72 +16,130 @@ body {
 }
 
 a {
-    color: black;
+    color: white;
 }
 
 p {
     color: white;
+    font-family: "Raleway", sans-serif;
 }
 
 h1, h3, h4, h5, h6 {
-    color: black;
+    color: white;
     font-family: "Raleway", sans-serif;
-    font-size: 25px;
 }
 
-.PageSection {
-    display: flex;
-    height: 10vw;
-    width: 20vh;
-    min-width: 100vw;
-    min-height: 25vw;
-}
-
-.Section1 {
-    background-color: blue;
-    display: flex;
-    width: 100px;
-    height: 100px;
-    min-width: 100vw;
-    min-height: 15vh;
-}
-
-.Section1 {
-    background-color: grey;
-    display: flex;
-    width: 100px;
-    height: 100px;
-    min-width: 100vw;
-    min-height: 15vh;
-}
-
-.Section2 {
-    background-color: navy;
-    display: flex;
-    width: 100px;
-    height: 100px;
-    min-width: 100vw;
-    min-height: 15vh;
-}
-
-.Section3 {
-    background-color: black;
-    display: flex;
-    width: 100px;
-    height: 100px;
-    min-width: 100vw;
-    min-height: 15vh;
-}
 
 .mainflexbox {
     background-color: white;
     display: flex;
     flex-direction: column;
-    min-width: 100vw;
-    min-height: 100vh;
+    height: 100vh;
 }
 
-.flexbox {
+.PageSection {
+    position: relative;
+}
+
+.Section1 {
+    background-color: rgb(77, 77, 77);
+    position: relative;
+    min-height: 25vh;
+}
+
+.Section1 .Section1-PersonalPicture {
+    border-radius: 360vh;
+    position: relative;
+    top: 3.5vh;
+    left: 45vh;
+    width: 20vh;
+    height: 20vh;
+}
+
+.Section2 {
+    background-color: rgba(3,3,71);
+    position: relative;
+    min-height: 90vh;
+    padding-bottom: 10px;
+}
+
+.Section2 .Section2-Header {
+    position: fixed;
+    padding-left: 0%;
+    margin-left: 18vh;
+    font-weight: 0;
+    font-size:xx-large;
+}
+
+.Section2 .Project-List {
     display: flex;
+    flex-direction: column;
 }
 
+.Section2 .Project-List .Project-Object {
+    background-color: black;
+    border-bottom-left-radius: 90px;
+    border-top-left-radius: 90px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 35px;
+    height: 20vh;
+}
+
+.Section2 .Project-List .Project-Object .Project-Picture {
+    border-radius: 360px;
+    width: 16vh;
+    height: 16vh;
+    margin-top: 15px;
+    margin-bottom: 25px;
+    margin-left: 15px
+}
+
+.Section2 .Project-List .Project-Object .Project-Name {
+    position: relative;
+    text-align: start;
+    font-size: medium;
+    font-weight: 700;
+    margin-left: 140px;
+    bottom: 150px;
+}
+
+.Section2 .Project-List .Project-Object .Project-Date-Details {
+    color: white;
+    position: relative;
+    text-align: start;
+    width: 40vh;
+    font-weight: 200;
+    margin-left: 140px;
+    bottom: 160px;
+}
+
+.Section2 .Project-List .Project-Object .Project-GitHub-Link {
+    color: white;
+    position: relative;
+    margin-left: 370px;
+    bottom: 170px;
+}
+
+.Section3 {
+    background-color: black;
+    min-height: 25vh;
+}
+
+.Section4 {
+    background-color: rgb(77, 77, 77);
+    display: flex;
+    min-height: 25vh;
+}
+
+
+
+
+/* Website Responsiveness Source Code */
+
+    /* [ Ipad  + Desktop]  */
+@media only screen and (min-width: 518px) {
+    .Section2 .Section2-Header {
+        color: red;
+    }
+}
