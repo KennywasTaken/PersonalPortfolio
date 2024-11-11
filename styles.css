@@ -8,6 +8,7 @@
 
 html {
     background-color: black;
+    overflow-x: hidden;
 }
 
 body {
@@ -24,17 +25,17 @@ p {
     font-family: "Raleway", sans-serif;
 }
 
-h1, h3, h4, h5, h6 {
-    color: white;
-    font-family: "Raleway", sans-serif;
-}
-
-
 .mainflexbox {
     background-color: white;
     display: flex;
     flex-direction: column;
     height: 100vh;
+}
+
+.divider {
+    color: transparent;
+    background-color: rgba(1, 1, 1, 0.548);
+    height: 5px;
 }
 
 .PageSection {
@@ -43,31 +44,50 @@ h1, h3, h4, h5, h6 {
 
 .Section1 {
     background-color: rgb(77, 77, 77);
+    display: flex;
+    min-height: 30vh;
+    padding-bottom: 15px;
+}
+
+.Section1 .Section1-NameHeader {
+    white-space: nowrap;
     position: relative;
-    min-height: 25vh;
+    width: 200px;
+    height: auto;
+    left: 8vh;
+    top: 5vh;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.Section1 .Section1-Divider-1 {
+    position: relative;
+    padding: 0%;
+    margin: 0%;
+    width: 150px;
+    top: 79px;
+    right: 110px;
 }
 
 .Section1 .Section1-PersonalPicture {
-    border-radius: 360vh;
     position: relative;
-    top: 3.5vh;
-    left: 45vh;
-    width: 20vh;
-    height: 20vh;
+    border-radius: 360vh;
+    margin-top: 30px;
+    margin-left: 0px;
+    right: 30px;
+    width: 21vh;
+    height: 21vh;
 }
 
 .Section2 {
     background-color: rgba(3,3,71);
-    position: relative;
     min-height: 90vh;
     padding-bottom: 10px;
 }
 
 .Section2 .Section2-Header {
-    position: fixed;
     padding-left: 0%;
     margin-left: 18vh;
-    font-weight: 0;
     font-size:xx-large;
 }
 
@@ -117,7 +137,7 @@ h1, h3, h4, h5, h6 {
 .Section2 .Project-List .Project-Object .Project-GitHub-Link {
     color: white;
     position: relative;
-    margin-left: 370px;
+    margin-left: 330px;
     bottom: 170px;
 }
 
