@@ -1,7 +1,14 @@
+
+    /* Color Scheme: 
+        #030347 - Navy
+        #050578 - Navy (Lighter Shade)
+        #808080 - Grey
+        #000000 - Black
+    */
+
 html {
     background-color: black;
 }
-
 
 body {
     margin: 0;
@@ -22,122 +29,59 @@ h1, h3, h4, h5, h6 {
     font-size: 25px;
 }
 
-h2 {
-    color: white;
-}
-
-.divider {
-    position: absolute;
-    background-color: rgba(0,0,0, .3);
-    border-radius: 360px;
-    font-size: 0%;
-    width: 10px;
-    height: 225px;
-    top: 10px;
-    left: 525px
-}
-
-.ProjectList {
-    position: absolute;
-    align-self: center;
-    left: 50%;
-}
-
-.ProjectButton {
-    align-self: center;
-    width: 150px;
-    height: 150px;
-    border-radius: 50%;
-    margin-right: 20px;
-    cursor: pointer;
-    color: white;
-    font-weight: 500px;
-}
-
-.PageTop {
+.PageSection {
     display: flex;
-    justify-content: flex-start;
-    width: 100vw;
-    height: 250px;
-    color: black;
-    background-color: gray;
-    box-sizing: border-box;
-    position: relative;
+    height: 10vw;
+    width: 20vh;
+    min-width: 100vw;
+    min-height: 25vw;
 }
 
-.PageTop .TopHeader {
-    position: absolute;
-    font-family: "Raleway", sans-serif;
-    font-size: 25px;
-    top: 25px;
-    left: 25%;
-    font-weight: 700;
-}
-
-.PageTop .PersonalDetails {
-    position: absolute;   
-    top: 75px;      
-    right: 14%; 
-    font-weight: 300px;        
-}
-
-.PageTop .PersonalPhoto {
-    position: absolute;
-    border-radius: 360px;
-    width: 200px;
-    height: 200px;
-    align-self: center;
-    left: 45%;
-}
-
-.FirstRow {
+.Section1 {
+    background-color: blue;
     display: flex;
-    justify-content: flex-start;
-    width: 100vw;
-    height: 400px;
-    color: black;
-    background-color: rgba(3, 3, 71);
-    box-sizing: border-box;
-    position: relative;
+    width: 100px;
+    height: 100px;
+    min-width: 100vw;
+    min-height: 15vh;
 }
 
-.FirstRow .FirstRowHeader {
-    position: absolute;
-    font-family: "Raleway", sans-serif;
-    font-size: 25px;
-    left: 50%;
-    font-weight: 700;
-}
-
-.FirstRow .PersonalPhoto {
-    border-radius: 360px;
-    width: 150px;
-    height: 150px;
-    align-self: center;
-}
-
-.SecondRow {
+.Section1 {
+    background-color: grey;
     display: flex;
-    justify-content: flex-start;
-    width: 100vw;
-    height: 300;
-    color: black;
+    width: 100px;
+    height: 100px;
+    min-width: 100vw;
+    min-height: 15vh;
+}
+
+.Section2 {
+    background-color: navy;
+    display: flex;
+    width: 100px;
+    height: 100px;
+    min-width: 100vw;
+    min-height: 15vh;
+}
+
+.Section3 {
     background-color: black;
-    box-sizing: border-box;
-    position: relative;
+    display: flex;
+    width: 100px;
+    height: 100px;
+    min-width: 100vw;
+    min-height: 15vh;
 }
 
-.SecondRow .FeedbackButton {
-    position: absolute;
-    align-self: flex-end;
-    left: 50%;
+.mainflexbox {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    min-width: 100vw;
+    min-height: 100vh;
 }
 
-.ProjectBotton {
-    position: absolute;
-    font-family: "Raleway", sans-serif;
-    font-size: 25px;
-    top: 25px;
-    left: 50%;
-    font-weight: 700;
+.flexbox {
+    display: flex;
 }
+
