@@ -9,3 +9,15 @@
         margin: 0;
         padding: 0;
     }
+
+    html, body, * {
+        cursor: default;
+    }
+
+    .page {
+        height: 100vh;
+    }
+
+    .header {
+        width: 20vh;
+    }
