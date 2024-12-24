@@ -5,19 +5,75 @@
         #808080 - Grey
         #000000 - Black
     */
+
     * {
         margin: 0;
         padding: 0;
     }
 
-    html, body, * {
-        cursor: default;
+    body {
+        background-color: blanchedalmond;
+        height: 570px;
+        width: 960px;
     }
 
     .page {
-        height: 100vh;
+        background-color: lightblue;
     }
 
-    .header {
-        width: 20vh;
+    .Seperator {
+        background-color: darkgray;
+        margin-top: 5px;
+        margin-bottom: 5px;
+        opacity: 50%;
+        width: 500px;
+        height: 5px;
+        border-radius: 10px;
+    }
+
+    .section-heading {
+        font-size: large;
+    }
+
+    .personal-info {
+
+    }
+
+    .personal-info .content-flex-box {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .personal-info .personal-picture{
+        width: 100px;
+        height: 100px;
+    }
+
+    .personal-info .social-icon {
+
+    }
+
+    .personal-info .social-links {
+
+    }
+
+    /*------------------*/
+
+    .personal-stack {
+
+    }
+
+    .personal-stack .content-flex-box {
+        display: flex;
+        flex-direction: column;
+    }
+
+    /*------------------*/
+
+    .personal-projects {
+
+    }
+
+    .personal-projects .content-flex-box {
+        display: flex;
     }
