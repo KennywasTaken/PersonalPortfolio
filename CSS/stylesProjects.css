@@ -4,9 +4,6 @@
         blanchedalmond
     */
 
-    * {
-    }
-
     body {
         size: auto;
         background-color: blanchedalmond;
@@ -34,7 +31,7 @@
         grid-row-end: 1;
     }
 
-    .search-grid-item .section-container
+    /* .search-grid-item .section-container
     {
 
     }
@@ -42,8 +39,14 @@
     .search-grid-item .section-container .search-input
     {
 
-    }
+    } */
 
+
+    .page .main-grid .current-projects-grid-item
+    {
+        border-style: solid;
+        border-color: red;
+    }
 
 
     .projects-grid-item
