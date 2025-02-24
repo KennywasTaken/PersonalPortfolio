@@ -1,0 +1,55 @@
+
+
+    /* Color Scheme: 
+        blanchedalmond
+    */
+
+    * {
+    }
+
+    body {
+        size: auto;
+        background-color: blanchedalmond;
+    }
+
+    .page
+    {
+        border-color: blue;
+        margin-top: 15px;
+        width: auto;
+        height: auto;
+    }
+
+    .main-grid
+    {
+        display: grid;
+        font-family: Verdana, sans-serif;
+    }
+
+    .search-grid-item
+    {
+        grid-column-start: 1;
+        grid-column-end: 1;
+        grid-row-start: 1;
+        grid-row-end: 1;
+    }
+
+    .search-grid-item .section-container
+    {
+
+    }
+
+    .search-grid-item .section-container .search-input
+    {
+
+    }
+
+
+
+    .projects-grid-item
+    {
+        grid-column-start: 1;
+        grid-column-end: 1;
+        grid-row-start: 2;
+        grid-row-end: 2;
+    }
